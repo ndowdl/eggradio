@@ -1,0 +1,23 @@
+{
+  "name": "eggradio",
+  "version": "1.0.0",
+  "description": "An Egg music player with pet inside of it!",
+  "license": "ISC",
+  "author": "NdooNJoanne",
+  "type": "commonjs",
+  "main": "backend.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^37.2.0"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "howler": "^2.2.4",
+    "jquery": "^3.7.1",
+    "jsmediatags": "^3.9.7",
+    "path": "^0.12.7"
+  }
+}
